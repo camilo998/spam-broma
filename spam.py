@@ -56,23 +56,22 @@ import pyperclip
 # aquí dejo la url de la pagina de emoji https://www.messletters.com/es/text-art/ para remplazar el emoji por otro ...
 
 # 1. REPETICIONES
-ciclos =25         # Cuantas veces hace todo el proceso
+ciclos =2         # Cuantas veces hace todo el proceso
 total_textos = 1    # Cuantos "mensaje de texto" por cada ciclo
 total_corazon = 1   # Cuantos emojis por cada ciclo
 
 # 2. CONTENIDO
-mensaje_texto = "jajajaja "  # <--- AQUÍ VA EL TEXTO A ENVIAR --->
-emoji = """  ⚡⚡⚡⚡
-          ⚡⚡⚡⚡
-       ⚡⚡⚡⚡
-    ⚡⚡⚡⚡⚡⚡⚡
- ⚡⚡⚡⚡⚡⚡⚡⚡
-          ⚡⚡⚡
-       ⚡⚡⚡
-    ⚡⚡⚡
- ⚡⚡⚡
-⚡⚡
-⚡"""  # <--- AQUÍ va el diseño de la pagina https://www.messletters.com/es/text-art/ A ENVIAR 
+mensaje_texto = " ... "  # <--- AQUÍ VA EL TEXTO A ENVIAR --->
+emoji = """⬛️⬛️⬛️🟥🟥⬛️⬛️⬛️🟥🟥⬛️⬛️⬛️
+⬛️⬛️🟥🟥🟥🟥⬛️🟥🟥🟥🟥⬛️⬛️
+⬛️🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥⬛️
+⬛️🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥⬛️
+⬛️🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥⬛️
+⬛️⬛️🟥🟥🟥🟥🟥🟥🟥🟥🟥⬛️⬛️
+⬛️⬛️⬛️🟥🟥🟥🟥🟥🟥🟥⬛️⬛️⬛️
+⬛️⬛️⬛️⬛️🟥🟥🟥🟥🟥⬛️⬛️⬛️⬛️
+⬛️⬛️⬛️⬛️⬛️🟥🟥🟥⬛️⬛️⬛️⬛️⬛️
+⬛️⬛️⬛️⬛️⬛️⬛️🟥⬛️⬛️⬛️⬛️⬛️⬛️"""  # <--- AQUÍ va el diseño de la pagina https://www.messletters.com/es/text-art/ A ENVIAR 
                                                                         #  para que se guarde en la memoria  --->
 
 # 3. TIEMPOS (Aquí es donde controlas la velocidad)
